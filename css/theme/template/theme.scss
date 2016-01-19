@@ -50,6 +50,8 @@ body {
 	text-shadow: $headingTextShadow;
 
 	word-wrap: break-word;
+
+	text-align: center;
 }
 
 .reveal h1 {font-size: $heading1Size; }
@@ -265,6 +267,7 @@ body {
 	border: 4px solid $mainColor;
 
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+
 }
 
 	.reveal section img.plain {
@@ -392,4 +395,13 @@ Simon labbar
   /* adjust the width; make sure the total of both is 100% */
   padding: 0;
   margin: 0
+}
+
+.reveal .imageblock {
+	margin: auto;
+}
+
+.reveal .imageblock img {
+ 	display: block;
+	margin: auto;
 }
