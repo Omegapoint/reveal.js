@@ -334,3 +334,6 @@ Simon labbar
 .reveal .imageblock img {
   display: block;
   margin: auto; }
+
+.reveal .center {
+  text-align: center; }
