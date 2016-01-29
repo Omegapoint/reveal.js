@@ -1,0 +1,18 @@
+/******************************************
+Theme overrides to avoid conflict
+*******************************************/
+
+.reveal section img {
+    max-height: 15em;
+}
+
+.reveal p {
+    font-size: 90%;
+}
+.reveal .dlist dl p {
+	font-size: 60%;
+}
+
+.reveal .dlist dt {
+	font-size: 70%;
+}
