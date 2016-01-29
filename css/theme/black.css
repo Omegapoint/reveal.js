@@ -16,7 +16,7 @@ body {
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 38px;
+  font-size: 32px;
   font-weight: normal;
   color: #fff; }
 
@@ -47,7 +47,8 @@ body {
   letter-spacing: normal;
   text-transform: uppercase;
   text-shadow: none;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  text-align: center; }
 
 .reveal h1 {
   font-size: 2.5em; }
@@ -666,3 +667,14 @@ Theme overrides to avoid conflict
 
 .reveal .dlist dt {
   font-size: 70%; }
+
+.reveal .imageblock {
+  margin: auto; }
+
+.reveal .imageblock img {
+  display: block;
+  margin: auto; }
+
+.reveal .center {
+  text-align: center; }
+
