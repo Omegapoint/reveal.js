@@ -328,6 +328,16 @@ Simon labbar
   padding: 0;
   margin: 0; }
 
+.reveal .imageblock {
+  margin: auto; }
+
+.reveal .imageblock img {
+  display: block;
+  margin: auto; }
+
+.reveal .center {
+  text-align: center; }
+
 .CodeRay {
   background-color: #efefef;
   font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
@@ -656,6 +666,10 @@ ol.CodeRay li {
 /******************************************
 Theme overrides to avoid conflict
 *******************************************/
+.image {
+  display: block;
+  text-align: center; }
+
 .reveal section img {
   max-height: 15em; }
 
@@ -667,14 +681,3 @@ Theme overrides to avoid conflict
 
 .reveal .dlist dt {
   font-size: 70%; }
-
-.reveal .imageblock {
-  margin: auto; }
-
-.reveal .imageblock img {
-  display: block;
-  margin: auto; }
-
-.reveal .center {
-  text-align: center; }
-

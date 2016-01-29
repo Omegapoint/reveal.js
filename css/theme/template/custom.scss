@@ -2,6 +2,11 @@
 Theme overrides to avoid conflict
 *******************************************/
 
+.image {
+    display: block;
+    text-align: center;
+}
+
 .reveal section img {
     max-height: 15em;
 }
@@ -16,3 +21,5 @@ Theme overrides to avoid conflict
 .reveal .dlist dt {
 	font-size: 70%;
 }
+
+
