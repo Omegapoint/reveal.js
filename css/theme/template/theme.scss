@@ -409,3 +409,37 @@ Simon labbar
 .reveal .center {
 	text-align: center;
 }
+
+
+.reveal ul {
+	width: 100%;	
+}
+
+.reveal ul .square {
+	list-style: square;
+}
+
+.reveal .plus ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+ 	text-indent: -1em;
+}
+.reveal .plus ul li:before {
+	content: "+";
+	margin-right: 4px;
+        float: left;
+        width: 1em;
+}
+.reveal .minus ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.reveal .minus ul li:before {
+	content: "-";
+	margin-right: 0px;
+	float: left;
+      	width: 1em;
+}
